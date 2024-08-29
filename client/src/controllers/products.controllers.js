@@ -1,9 +1,21 @@
-export const createProduct = (req, res) => {
-        
+import Product from '../models/Product.js';
+
+export const createProduct = async (req, res) => {
+
+    const {name, category, price, imgURL} = req.body;
+    
+    const newProduct = new Product({name, category, price, imgURL});
+    
+    const productSaved = await newProduct.save();
+    
+    res.status(201).json(productSaved);
+    
+    //res.json("Ingresando un nuevo producto.");
 }
 
-export const getProducts = (req, res) => {
-    res.json("Todos los productos.");
+export const getProducts = async (req, res) => {
+    const products = await Product.find();
+    res.json(products);
 }
 
 export const getProductById = (req, res) => {
