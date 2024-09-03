@@ -1,3 +1,27 @@
+{
+    "username": "admin",
+    "email": "admin@gmail.com",
+    "password": "admin",
+    "roles": ["admin"]
+}
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2ZDY2NDE1YjE2YWRiYTAyM2FhZTY1NSIsImlhdCI6MTcyNTMyNjM1NywiZXhwIjoxNzI1NDEyNzU3fQ.OPVHs_bxVhISaJuswmRIvkGi4v3JIiPTXEsnZt3pJlc
+----------------------------------------
+{
+    "username": "moderator",
+    "email": "moderator@gmail.com",
+    "password": "moderator",
+    "roles": ["moderator"]
+}
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2ZDY2NDMxYjE2YWRiYTAyM2FhZTY1OCIsImlhdCI6MTcyNTMyNjM4NSwiZXhwIjoxNzI1NDEyNzg1fQ.Eh6qWV_Hf8QrvjlISA_V_4WaXKl91al9P3EIGBO4ZWk
+----------------------------------------
+{
+    "username": "usuario",
+    "email": "usuario@gmail.com",
+    "password": "usuario",
+    "roles": ["usuario"]
+}
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2ZDY2NDU5YjE2YWRiYTAyM2FhZTY1YiIsImlhdCI6MTcyNTMyNjQyNSwiZXhwIjoxNzI1NDEyODI1fQ.qs5M-DWCaLgYjMDZ11QYa9VFD0tRZ8bEwjzeRH7ezAM
+----------------------------------------
 https://www.youtube.com/watch?v=lV7mxivGX_I&list=LL&index=4
 
 => 
@@ -7,6 +31,8 @@ https://www.youtube.com/watch?v=lV7mxivGX_I&list=LL&index=4
 00:46:10 
 01:13:00 
 01:27:00
+01:36:22
+02:00:40
 
 
 npm init -y para crear el archivo package.json 
