@@ -32,7 +32,7 @@ https://www.youtube.com/watch?v=lV7mxivGX_I&list=LL&index=4
 01:13:00 
 01:27:00
 01:36:22
-02:00:40
+02:13:03
 
 
 npm init -y para crear el archivo package.json 
